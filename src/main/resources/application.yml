@@ -1,0 +1,21 @@
+server:
+  port: 8099
+
+spring:
+  application:
+    name: OAuth2
+
+
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: xxxx
+            client-secret: xxxx
+
+          github:
+            client-id: xxxx
+            client-secret: xxxx
+
